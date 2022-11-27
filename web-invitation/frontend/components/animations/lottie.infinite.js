@@ -9,7 +9,7 @@ import lottieJson from "../../public/lotties/infinite.json";
 export default function LottieInfinite() {
   return (
     <Lottie
-      loop={0}
+      loop
       animationData={lottieJson}
       play
       // style={{ width: 150, height: 150 }}

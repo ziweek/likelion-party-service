@@ -4,10 +4,10 @@ import Header from "./header";
 export default function Layout({ children }) {
   return (
     <>
-      <div className="sticky top-0 z-40">
+      <div className="sticky top-0 z-20">
         <Header></Header>
       </div>
-      <div className="flex items-center justify-center">{children}</div>
+      <div className="bg-black">{children}</div>
       <Footer></Footer>
     </>
   );
