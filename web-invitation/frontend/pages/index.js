@@ -1,5 +1,6 @@
 import Head from "next/head";
 import LottieInfinite from "../components/animations/lottie.infinite";
+import Conclusion from "../components/home/conclusion";
 import Content from "../components/home/content";
 import Hero from "../components/home/hero";
 import Layout from "../components/layout";
@@ -16,6 +17,7 @@ export default function Home() {
       <Layout>
         <Hero></Hero>
         <Content></Content>
+        <Conclusion></Conclusion>
       </Layout>
     </div>
   );
